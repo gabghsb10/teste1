@@ -1,64 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
-}
-.cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem{
-    width: 10%;
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
     font-size: 16px;
-}
-
-.escola-imagem{
-    width: 25%;
-}
-
-.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo{
-    width: 35%;
-}
-
-
-.escola-titulo{
-    padding: 24px 0;
-}
-
-.estudante{
-    padding: 24px 0;
-}
-.estudante-imagem{
-    width: 120px;
-}
-
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
-
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
+    font-weight: 400;
 }
